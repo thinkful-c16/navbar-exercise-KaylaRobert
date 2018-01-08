@@ -64,21 +64,30 @@ a:link, a:visited, a:hover, a:active {
     list-style-type: none;
 }
 
+.splash-nav-secondary {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
 .splash-nav-item {
+    display: none;
     margin: 0;
     padding: 12px;
     border: 1px solid #eeeeef;
     background-color: white;
 }
 
-.splash-nav-dropdown-item {
-    display: none;
+.splash-nav-item__logo{
+    margin: 0;
+    padding: 12px;
+    border: 1px solid #eeeeef;
+    background-color: white;
+    display: block;
 }
 
-.splash-nav-secondary {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+.splash-nav-dropdown-item {
+    display: none;
 }
 
 .courses {
