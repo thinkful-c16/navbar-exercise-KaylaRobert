@@ -15,12 +15,14 @@ function toggleMenu (){
 function toggleCourses(){
     $("#splash-nav-courses-toggle").click(function(){
         $(".splash-nav-courses-list > .splash-nav-dropdown-item").toggle();
+        $(".splash-nav-education-list > .splash-nav-dropdown-item").hide();
     });
 }
 
 function toggleEducation(){
     $("#splash-nav-education-toggle").click(function(){
         $(".splash-nav-education-list > .splash-nav-dropdown-item").toggle();
+        $(".splash-nav-courses-list > .splash-nav-dropdown-item").hide();
     });
 }
 
