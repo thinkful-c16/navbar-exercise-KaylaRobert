@@ -39,7 +39,7 @@ body {
 }
 
 nav {
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: white;
     display: block;
     align-self: auto;
     flex-flow: row wrap;
@@ -49,13 +49,23 @@ nav {
     text-transform: uppercase;
 }
 
-a:link, a:visited, a:hover, a:active {
+a.splash-nav-toggle:link, a.splash-nav-toggle:visited, a.splash-nav-toggle:hover, a.splash-nav-toggle:active {
     text-decoration: none;
-    color: rgb(135, 173, 250) ;
+    color: rgb(135, 173, 250);
+}
+
+a.splash-nav-item-link:link, a.splash-nav-item-link:visited, a.splash-nav-item-link:hover, a.splash-nav-item-link:active {
+    text-decoration: none;
+    color: rgb(135, 173, 250);
 }
 
 .splash-nav {
     width: 100%;
+}
+
+.splash-nav-courses-list, .splash-nav-education-list {
+    padding: 0;
+    margin: 0;
 }
 
 .splash-nav-primary {
@@ -75,23 +85,33 @@ a:link, a:visited, a:hover, a:active {
     margin: 0;
     padding: 12px;
     border: 1px solid #eeeeef;
-    background-color: white;
 }
 
 .splash-nav-item__logo{
     margin: 0;
     padding: 12px;
     border: 1px solid #eeeeef;
-    background-color: white;
-    display: block;
 }
 
 .splash-nav-dropdown-item {
     display: none;
+    list-style-type: none;
+    padding-top: 12px;
+    padding-bottom: 0;
+    text-transform: capitalize;
+}
+
+a.splash-nav-dropdown-link:link, a.splash-nav-dropdown-link:visited, a.splash-nav-dropdown-link:hover, a.splash-nav-dropdown-link:active {
+    text-decoration: none;
+    color: black;
 }
 
 .courses {
     background-color: white;
+}
+
+.item-image {
+    display: none;
 }
 
 .how-it-works {
