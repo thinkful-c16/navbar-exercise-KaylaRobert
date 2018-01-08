@@ -6,6 +6,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
 }
 
 .hamburger {
@@ -15,6 +17,7 @@ body {
     border-radius: 2px;
     box-shadow: 0 0 2px #eeeeef;
     padding: 10px 10px;
+    margin: 8px; 
 }
 
 .hamburger-stripe {
@@ -23,5 +26,13 @@ body {
     margin-bottom: 5px;
 }
 
-/* Add your CSS here */
+.logo {
+    flex-grow: 1;
+    margin: 12px; 
+}
+
+nav {
+    background-color: rgba(255, 0, 0, 0.5);
+    display: none;
+}
 
