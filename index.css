@@ -10,7 +10,13 @@ body {
     flex-direction: row;
 }
 
+.top {
+    background-color: aqua;
+}
+
 .hamburger {
+    position: absolute;
+    right: 0;
     width: 48px;
     height: 42px;
     border: 1px solid #eeeeef;
@@ -28,11 +34,69 @@ body {
 
 .logo {
     flex-grow: 1;
-    margin: 12px; 
+    margin: 12px;
+    width: 100%;
 }
 
 nav {
     background-color: rgba(255, 0, 0, 0.5);
+    display: block;
+    align-self: auto;
+    flex-flow: row wrap;
+}
+
+.splash-nav-desktop-grid {
+    text-transform: uppercase;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: rgb(135, 173, 250) ;
+}
+
+.splash-nav {
+    width: 100%;
+}
+
+.splash-nav-primary {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.splash-nav-item {
+    margin: 0;
+    padding: 12px;
+    border: 1px solid #eeeeef;
+    background-color: white;
+}
+
+.splash-nav-dropdown-item {
     display: none;
 }
 
+.splash-nav-secondary {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.courses {
+    background-color: white;
+}
+
+.how-it-works {
+    background-color: white;
+}
+
+.reviews {
+    background-color: white;
+}
+
+.pricing {
+    background-color: white;
+}
+
+.sign-in {
+    background-color: white;
+}
