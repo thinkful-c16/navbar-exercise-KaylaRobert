@@ -14,12 +14,6 @@ body {
     background-color: aqua;
 }
 
-@media (min-width: 720px), (orientation: landscape) {
-    .hide-when-large {
-      display: none;
-    }
-  }
-
 .hamburger {
     position: absolute;
     right: 0;
@@ -112,26 +106,14 @@ a.splash-nav-dropdown-link:link, a.splash-nav-dropdown-link:visited, a.splash-na
     color: black;
 }
 
+.splash-nav-separator {
+    display: none;
+}
+
 .courses {
     background-color: white;
 }
 
 .item-image {
     display: none;
-}
-
-.how-it-works {
-    background-color: white;
-}
-
-.reviews {
-    background-color: white;
-}
-
-.pricing {
-    background-color: white;
-}
-
-.sign-in {
-    background-color: white;
 }

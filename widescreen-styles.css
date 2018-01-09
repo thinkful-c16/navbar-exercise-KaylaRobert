@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.top {
+    background-color: aqua;
+}
+
+.hamburger, .hamburger-stripe {
+    display: none;
+}
+
+.logo {
+    flex-grow: 1;
+    margin: 12px;
+    width: 100%;
+}
+
+nav {
+    background-color: white;
+    display: block;
+    align-self: auto;
+    flex-flow: row wrap;
+}
+
+.splash-nav-desktop-grid {
+    text-transform: uppercase;
+}
+
+a.splash-nav-toggle:link, a.splash-nav-toggle:visited, a.splash-nav-toggle:hover, a.splash-nav-toggle:active {
+    text-decoration: none;
+    color: rgb(135, 173, 250);
+}
+
+a.splash-nav-item-link:link, a.splash-nav-item-link:visited, a.splash-nav-item-link:hover, a.splash-nav-item-link:active {
+    text-decoration: none;
+    color: rgb(135, 173, 250);
+}
+
+.splash-nav {
+    width: 100%;
+}
+
+.splash-nav-courses-list, .splash-nav-education-list {
+    padding: 0;
+    margin: 0;
+}
+
+.splash-nav-primary {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.splash-nav-secondary {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.splash-nav-item {
+    margin: 0;
+    padding: 12px;
+    border: 1px solid #eeeeef;
+}
+
+.splash-nav-item__logo{
+    margin: 0;
+    padding: 12px;
+    border: 1px solid #eeeeef;
+}
+
+.splash-nav-dropdown-item {
+    display: none;
+    list-style-type: none;
+    padding-top: 12px;
+    padding-bottom: 0;
+    text-transform: capitalize;
+}
+
+a.splash-nav-dropdown-link:link, a.splash-nav-dropdown-link:visited, a.splash-nav-dropdown-link:hover, a.splash-nav-dropdown-link:active {
+    text-decoration: none;
+    color: black;
+}
+
+.splash-nav-separator {
+    margin: 0;
+    padding: 12px;
+    background-color: #bada55;
+}
+
+.courses {
+    background-color: white;
+}
+
+.item-image {
+    display: none;
+}
