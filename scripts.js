@@ -1,11 +1,5 @@
 "use strict";
 
-function main (){
-    toggleMenu ();
-    toggleCourses();
-    toggleEducation();
-};
-
 function toggleMenu (){
     $(".menu-toggle").click(function(){
         $(".splash-nav-item").toggle();
@@ -27,5 +21,7 @@ function toggleEducation(){
 }
 
 $(document).ready(function() {
-    main();
+    toggleMenu ();
+    toggleCourses();
+    toggleEducation();
 });
